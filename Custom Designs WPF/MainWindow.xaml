@@ -1,0 +1,23 @@
+﻿<Window x:Class="Custom_Designs_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Custom_Designs_WPF"
+        mc:Ignorable="d"
+        Title="Buttons" Height="450" Width="800">
+    <Grid>
+        <WrapPanel Margin="20">
+            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource GradientButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
+            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource RoundedButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
+            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource CurvedButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
+            <Button Width="70" Height="60" Content="Button" Foreground="White" Template="{DynamicResource CircleButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
+            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource RedBorderedButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
+            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource DottedBrushButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
+            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource CircleRainbowButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
+            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource XButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
+            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource StarButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
+        </WrapPanel>
+            
+    </Grid>
+</Window>

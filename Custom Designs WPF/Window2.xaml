@@ -1,0 +1,35 @@
+﻿<Window x:Class="Custom_Designs_WPF.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Custom_Designs_WPF"
+        mc:Ignorable="d"
+        Title="TextBoxes" Height="450" Width="800" Background="#2c2b57">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Margin="20" Grid.Column="0">
+            <TextBox x:Name="Username" Template="{StaticResource TextBoxCR5}" Width="200" Height="30" Text="{Binding RelativeSource={RelativeSource Self},Path=Name}" Foreground="Gray" Margin="0 10 0 10" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" BorderBrush="Red" BorderThickness="2"></TextBox>
+            <TextBox x:Name="Password" Template="{StaticResource TextBoxCR5}" Width="200" Height="30" Text="{Binding RelativeSource={RelativeSource Self},Path=Name}" Foreground="Gray" Margin="0 10 0 10" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" BorderBrush="Red" BorderThickness="2"></TextBox>
+            <TextBox Template="{StaticResource TextBoxCR5}" Width="200" Height="30" Margin="0 10 0 10" Foreground="White" BorderBrush="Yellow" BorderThickness="2"></TextBox>
+            <TextBox Template="{StaticResource TextBoxCR5}" Width="200" Height="30" Margin="0 10 0 10" Foreground="White" BorderBrush="Yellow" BorderThickness="2"></TextBox>
+            <TextBox x:Name="RJCode" Template="{StaticResource TextBoxOnlyBottom}"  Margin="0 10 0 10" Width="200" Height="30" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Foreground="Gray" Text="{Binding RelativeSource={RelativeSource Self},Path=Name}"></TextBox>
+            <PasswordBox  Template="{StaticResource PasswordBoxOnlyBottom}"  Margin="0 10 0 10" Width="200" Height="30" Foreground="White" ></PasswordBox>
+            
+            
+            
+            
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            
+            <TextBox x:Name="admin" Template="{StaticResource TextBoxCR10}" Margin="0 25 0 10" Width="200" Height="30" Text="{Binding RelativeSource={RelativeSource Self},Path=Name}" Foreground="Gray" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" BorderBrush="Orange" BorderThickness="2"></TextBox>
+            <PasswordBox Template="{StaticResource PasswordBoxBorder}" Margin="0 10 0 10" Width="200" Height="30"  Foreground="White" BorderBrush="Orange" BorderThickness="2"></PasswordBox>
+            <TextBox Template="{StaticResource TextBoxCR5}" Margin="0 10 0 10" Width="200" Height="150" Text="TextBox Multiline"  Foreground="Gray" BorderBrush="MediumPurple" BorderThickness="2" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"></TextBox>
+        
+        </StackPanel>
+    </Grid>
+</Window>

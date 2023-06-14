@@ -1,0 +1,26 @@
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\bin\Debug\net6.0-windows\Custom Designs WPF.exe
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\bin\Debug\net6.0-windows\Custom Designs WPF.deps.json
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\bin\Debug\net6.0-windows\Custom Designs WPF.runtimeconfig.json
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\bin\Debug\net6.0-windows\Custom Designs WPF.dll
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\bin\Debug\net6.0-windows\Custom Designs WPF.pdb
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\Custom Designs WPF.csproj.AssemblyReference.cache
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\MyButtons.baml
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\App.g.cs
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\Custom Designs WPF_MarkupCompile.cache
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\Custom Designs WPF_MarkupCompile.lref
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\App.baml
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\MainWindow.baml
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\Custom Designs WPF.g.resources
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\Custom Designs WPF.GeneratedMSBuildEditorConfig.editorconfig
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\Custom Designs WPF.AssemblyInfoInputs.cache
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\Custom Designs WPF.AssemblyInfo.cs
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\Custom Designs WPF.csproj.CoreCompileInputs.cache
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\Custom Designs WPF.dll
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\refint\Custom Designs WPF.dll
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\Custom Designs WPF.pdb
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\Custom Designs WPF.genruntimeconfig.cache
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\ref\Custom Designs WPF.dll
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\Window2.g.cs
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\Window2.baml
+D:\WinForm & WPF\Custom Designs WPF\Custom Designs WPF\obj\Debug\net6.0-windows\MyTextBoxes.baml
