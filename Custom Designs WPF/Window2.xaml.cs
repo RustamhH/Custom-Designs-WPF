@@ -22,7 +22,6 @@ namespace Custom_Designs_WPF
         public Window2()
         {
             InitializeComponent();
-            
         }
 
         private void TextBox_GotFocus(object sender, RoutedEventArgs e)
@@ -40,10 +39,10 @@ namespace Custom_Designs_WPF
             tb.Text = tb.Name;
             tb.Foreground = new SolidColorBrush(Colors.Gray);
         }
-        
-        
-       
 
+
+
+        
 
 
 

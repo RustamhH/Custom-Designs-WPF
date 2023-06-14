@@ -126,7 +126,35 @@
     </ControlTemplate>
 
 
-    
+
+
+    <ControlTemplate x:Key="RichTextBoxTemplate" TargetType="RichTextBox">
+        <Grid>
+            <Border Background="Transparent"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="5"
+                    
+            />
+            <RichTextBox x:Name="PART_RichTextBox"
+                         Background="Transparent"
+                         Foreground="{TemplateBinding Foreground}"
+                         BorderThickness="0"
+                         Padding="5">
+                <RichTextBox.Style>
+                    <Style TargetType="RichTextBox">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Text.Length, RelativeSource={RelativeSource TemplatedParent}}"
+                                             Value="0">
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </RichTextBox.Style>
+            </RichTextBox>
+        </Grid>
+    </ControlTemplate>
+
+
 
 
 </ResourceDictionary>

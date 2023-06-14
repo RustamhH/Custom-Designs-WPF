@@ -28,8 +28,8 @@
             
             <TextBox x:Name="admin" Template="{StaticResource TextBoxCR10}" Margin="0 25 0 10" Width="200" Height="30" Text="{Binding RelativeSource={RelativeSource Self},Path=Name}" Foreground="Gray" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" BorderBrush="Orange" BorderThickness="2"></TextBox>
             <PasswordBox Template="{StaticResource PasswordBoxBorder}" Margin="0 10 0 10" Width="200" Height="30"  Foreground="White" BorderBrush="Orange" BorderThickness="2"></PasswordBox>
-            <TextBox Template="{StaticResource TextBoxCR5}" Margin="0 10 0 10" Width="200" Height="150" Text="TextBox Multiline"  Foreground="Gray" BorderBrush="MediumPurple" BorderThickness="2" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"></TextBox>
-        
+            <RichTextBox x:Name="multiline" Template="{StaticResource RichTextBoxTemplate}" Margin="0 10 0 10" Width="200" Height="150" Foreground="White" BorderBrush="MediumPurple" BorderThickness="2"></RichTextBox>
+            
         </StackPanel>
     </Grid>
 </Window>

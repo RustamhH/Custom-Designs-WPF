@@ -8,15 +8,19 @@
         Title="Buttons" Height="450" Width="800">
     <Grid>
         <WrapPanel Margin="20">
-            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource GradientButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
-            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource RoundedButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
-            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource CurvedButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
-            <Button Width="70" Height="60" Content="Button" Foreground="White" Template="{DynamicResource CircleButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
-            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource RedBorderedButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
-            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource DottedBrushButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
-            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource CircleRainbowButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
-            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource XButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
-            <Button Width="90" Height="40" Content="Button" Template="{DynamicResource StarButton}" Margin="0 0 30 0" Click="Button_Click"></Button>
+            <Button Style="{DynamicResource Button}"  Click="Button_Click"></Button>
+            <Button Style="{DynamicResource Button}"  Click="Button_Click" Background="DodgerBlue" Foreground="White"></Button>
+            <Button Style="{DynamicResource Button2}" Click="Button_Click" Background="DodgerBlue" Foreground="White"></Button>
+            <Button Style="{DynamicResource Button2}" Click="Button_Click" Background="Blue" Foreground="White"></Button>
+            <Button Style="{DynamicResource Button2}" Template="{DynamicResource GradientButton}" Click="Button_Click"></Button>
+            <Button Style="{DynamicResource Button2}" Template="{DynamicResource RoundedButton}"  Click="Button_Click"></Button>
+            <Button Style="{DynamicResource Button2}" Template="{DynamicResource CurvedButton}"   Click="Button_Click"></Button>
+            <Button Style="{DynamicResource Button2}" Foreground="White" Template="{DynamicResource CircleButton}" Click="Button_Click"></Button>
+            <Button Style="{DynamicResource Button2}" Template="{DynamicResource RedBorderedButton}"  Click="Button_Click"></Button>
+            <Button Style="{DynamicResource Button2}" Template="{DynamicResource DottedBrushButton}"  Click="Button_Click"></Button>
+            <Button Style="{DynamicResource Button2}" Template="{DynamicResource CircleRainbowButton}"  Click="Button_Click"></Button>
+            <Button Style="{DynamicResource Button2}" Template="{DynamicResource XButton}"  Click="Button_Click"></Button>
+            <Button Style="{DynamicResource Button2}" Template="{DynamicResource StarButton}"  Click="Button_Click"></Button>
         </WrapPanel>
             
     </Grid>
